@@ -18,3 +18,8 @@ Se accede y modifica directamente name, sellIn y quality
 ### 2. Clase sin metodos de comportamiento
 La clase unicamente mantiene el estado de los atributos, pero
 no contiene nada relaciondo a la logica
+
+## Mejoras incuidad en ambas clases
+1. Mejora de Cohesion y DRY
+2. Mejora de mantenibilidad y legibilidad (KISS, cohesion)
+3. Inclusion de modularidad
