@@ -28,9 +28,17 @@ public class Item {
     public void increaseQuality() {
         if (quality < 50) quality++;
     }
-    
+
+    public void decreaseQuality() { 
+        if (quality > 0) quality--; 
+    }
+
     public void decreaseSellIn() {
         sellIn--;
+    }
+
+    public boolean isExpired() { 
+        return sellIn < 0; 
     }
 
 
