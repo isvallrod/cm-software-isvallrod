@@ -41,6 +41,10 @@ public class Item {
         return sellIn < 0; 
     }
 
+    public void resetQuality() {
+        quality = 0;
+    }
+
 
    @Override
    public String toString() {

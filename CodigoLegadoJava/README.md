@@ -25,3 +25,4 @@ no contiene nada relaciondo a la logica
 1. Mejora de Cohesion y DRY
 2. Mejora de mantenibilidad y legibilidad (KISS, cohesion)
 3. Inclusion de modularidad
+4. Separacion de Clases para cumplir con principios SOLID
